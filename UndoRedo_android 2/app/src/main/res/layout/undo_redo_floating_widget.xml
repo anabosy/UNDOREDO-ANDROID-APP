@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/floatingWLayout">
+
+    <ImageView
+        android:id="@+id/undoButton"
+        android:layout_width="@dimen/undoredo_button_height"
+        android:layout_height="@dimen/undoredo_button_height"
+        android:background="@android:color/white"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/undo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/undo"/>
+
+    <ImageView
+        android:id="@+id/findButton"
+        android:layout_width="@dimen/undoredo_button_height"
+        android:layout_height="@dimen/undoredo_button_height"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:src="@drawable/loupe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/undoButton"
+        android:contentDescription="@string/find" />
+
+
+    <ImageView
+        android:id="@+id/redoButton"
+        android:layout_width="@dimen/undoredo_button_height"
+        android:layout_height="@dimen/undoredo_button_height"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:src="@drawable/redo"
+        android:contentDescription="@string/redo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findButton" />
+</android.support.constraint.ConstraintLayout>

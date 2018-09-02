@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="@string/pref_title_enable_service_undoredo"
+        android:key="@string/key_pref_enable_service_undoredo"
+        android:summaryOn="@string/pref_summary_disable_service_undoredo"
+        android:summaryOff="@string/pref_summary_enable_service_undoredo"
+        android:defaultValue="false" />
+
+    <SwitchPreference
+        android:title="@string/pref_title_enable_pinlock"
+        android:key="@string/key_pref_enable_pinlock"
+        android:summaryOn="@string/pref_summary_disable_pinlock"
+        android:summaryOff="@string/pref_summary_enable_pinlock"
+        android:defaultValue="false"/>
+
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/pref_cate_type_advance"-->
+        <!--android:dependency="pref_enable_service_undoredo">-->
+        <!--<Preference-->
+            <!--android:title="@string/pref_title_black_list"-->
+            <!--android:key="@string/key_pref_black_list"-->
+            <!--android:summary="@string/pref_summary_black_list">-->
+            <!--<intent-->
+                <!--android:targetPackage="com.undoredo.app"-->
+                <!--android:targetClass="com.undoredo.app.main.AppBlackListActivity" />-->
+        <!--</Preference>-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:title="@string/title_about">
+        <Preference
+            android:title="@string/title_about"
+            android:summary="@string/pref_summary_about"
+            android:key="@string/key_pref_about"/>
+    </PreferenceCategory>
+</PreferenceScreen>

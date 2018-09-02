@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#039be5</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="colorGris">#AAAAAA</color>
+
+
+    <color name="search_word_foregound">#03a9f4</color>
+    <color name="search_word_background">#AAAAAA</color>
+</resources>

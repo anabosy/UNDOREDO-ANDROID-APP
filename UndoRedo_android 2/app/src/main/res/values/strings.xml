@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">UndoRedo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_is_undo_redo">What is Undo Redo ?</string>
+    <string name="what_is_undo_redo_desc">This application give you the computer Ctrl+Z and Ctrl+Y feature on your smartphone when typping.</string>
+    <string name="settings">Settings</string>
+    <string name="enable_me">Enable Me</string>
+    <string name="goto_settings_enable_desc">Go to settings, Enable UndoRedo !</string>
+    <string name="input_service_description">To correctly work, this application need Accessibility service to read your inputs</string>
+
+    <string name="enable_accessibility_service">Service UndoRedo not enabled</string>
+    <string name="enable_accessibility_service_process">This app need accessibility services to work./n Please click on "Settings" and go to Accessibiltys -> UndoRedo -> Enable</string>
+    <string name="redo">Redo</string>
+    <string name="undo">Undo</string>
+    <string name="askpermission_system_alert_window">Enable UndoRedo application to use System Alert Window Permission</string>
+    <string name="undoredo_cant_work_system_alert_window_disabled">Please Re-Enable UndoRedo \"System alert windows\" Permission</string>
+    <string name="mainactivity_this_app_require_accessibility_permission_to_read_texts_on_screen_click_to_enable_it_on_android_settings">This app require accessibility permission to read texts on screen.\nClick to enable it on Android Settings.</string>
+    <string name="pref_title_enable_service_undoredo">Enable</string>
+    <string name="pref_summary_enable_service_undoredo">Enable UndoRedo Service</string>
+    <string name="pref_summary_disable_service_undoredo">Disable UndoRedo Service</string>
+    <string name="pref_title_enable_pinlock">PIN Lock</string>
+    <string name="pref_summary_enable_pinlock">Set PIN Lock for settings</string>
+    <string name="pref_summary_disable_pinlock">Disable PIN Lock for settings</string>
+    <string name="pref_cate_type_advance">Advanced Settings</string>
+    <string name="pref_title_black_list">Black List</string>
+    <string name="pref_summary_black_list">Set the black app list.</string>
+    <string name="pref_title_ignore_passowrd">Keep Watch On Passwords</string>
+    <string name="pref_summary_about">About this app</string>
+    <string name="title_about">About</string>
+    <string name="key_pref_enable_service_undoredo">pref_enable_service_undoredo</string>
+    <string name="key_pref_enable_pinlock">pref_enable_pinlock</string>
+    <string name="key_pref_black_list">pref_black_list</string>
+    <string name="key_pref_about">pref_about</string>
+    <string name="about_undoredo">UndoRedo v1.0</string>
+    <string name="find">Find…</string>
+    <string name="replace...">Replace…</string>
+    <string name="replace">REPLACE</string>
+    <string name="all">ALL</string>
+    <string name="find_index_count">%1$d/%2$d</string>
+
+</resources>

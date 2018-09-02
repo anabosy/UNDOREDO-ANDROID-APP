@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <!-- Used for the buttons -->
+        <!--<item name="colorAccent">@color/accent</item>-->
+        <item name="colorAccent">#202020</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+
+        <!-- Used for the background -->
+        <!--<item name="android:background">#4CAF50</item>-->
+        <!--Positive button-->
+        <!--<item name="buttonBarPositiveButtonStyle">@style/PositiveButton</item>-->
+        <!--<item name="buttonBarNeutralButtonStyle">@style/DestructiveButton</item>-->
+    </style>
+
+    <style name="AppThemeFindReplaceDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+
+    </style>
+
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        ...
+    </style>
+
+
+
+
+    <!--<style name="PositiveButton" parent="android:Widget.DeviceDefault.Button.Borderless">-->
+        <!--<item name="android:textColor">@color/positive_button_text_color</item>-->
+        <!--<item name="android:textSize">15sp</item>-->
+    <!--</style>-->
+
+    <!--<style name="DestructiveButton" parent="android:Widget.DeviceDefault.Button.Borderless">-->
+        <!--<item name="android:textColor">@color/destructive_button_text_color</item>-->
+        <!--<item name="android:textSize">15sp</item>-->
+    <!--</style>-->
+
+
+</resources>
